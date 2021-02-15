@@ -1,0 +1,9 @@
+# Connecting to home wifi network
+Lets open our Platform.io ide from vs code. We will create project using
+ESP8266 board. 
+
+
+# Reference
+ESP8266 Internet of things Cookbook Chapter 2 example for connecting to
+local wifi.
+
