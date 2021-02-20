@@ -1,9 +1,32 @@
-# Connecting to home wifi network
-Lets open our Platform.io ide from vs code. We will create project using
-ESP8266 board. 
+#+Title: NodeMCU ESP8266 Complete Development
+#+Author: Team PG Tech Workshop 
+#+Email: pgtechworkshop@gmail.com 
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/ 
+#+REVEAL_THEME: night
+#+OPTIONS: toc:nil num:nil timestamp:nil 
+* Introduction
+ESP8266 is a wifi SoC chip made by Espressif corporation. It supports
+- Protocol 802.11b/g/n/e/i
+- Frequency range 2.4 to 2.5 GHz
+- CPU Tensilica a 32 bit micro controller
+- UART/SDIO/SPI/I2C/I2S/IR Remote control 
+- GPIO/ADC/PWM/
+- It operates on 2.5 to 3.6 V DC
+- Takes max operating current of 80mA
+* Programming Model
+** Cross platform development using PlatformIo tool
+** Native javascript based programming
 
+* Hello World (blinking LED)
+* Connecting to Local/Home Wifi
+* Reading button or switch using digital IO
+* Control LED brightness using PWM output
+* Reading room temperature using analog input
+* Using NODE MCU as web server
+* Connecting high voltage load
+** Safety first
+* Over the air update
+* Mesh connection
+  
 
-# Reference
-ESP8266 Internet of things Cookbook Chapter 2 example for connecting to
-local wifi.
 
