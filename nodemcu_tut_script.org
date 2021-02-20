@@ -1,9 +1,15 @@
-# Connecting to home wifi network
+* Connecting to home wifi network
 Lets open our Platform.io ide from vs code. We will create project using
 ESP8266 board. 
 
 
-# Reference
+* Reading digital input
+ Please note pin number should be D5 and not simple number 5 in case of
+ ardiuno.
+
+ 
+ 
+* Reference
 ESP8266 Internet of things Cookbook Chapter 2 example for connecting to
 local wifi.
 

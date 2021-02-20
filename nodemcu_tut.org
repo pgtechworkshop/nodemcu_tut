@@ -19,7 +19,26 @@ ESP8266 is a wifi SoC chip made by Espressif corporation. It supports
 
 * Hello World (blinking LED)
 * Connecting to Local/Home Wifi
-* Reading button or switch using digital IO
+* Reading digital input
+#+BEGIN_SRC  C :exports code :eval no
+#include <Arduino.h>
+
+#define INPUT_PIN D5
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(INPUT_PIN,INPUT);
+}
+
+void loop() {
+  int value = 0;
+
+  value = digitalRead(INPUT_PIN);
+  delay(1000);
+  Serial.println(value);
+}
+#+END_SRC
+
 * Control LED brightness using PWM output
 * Reading room temperature using analog input
 * Using NODE MCU as web server
